@@ -5,60 +5,59 @@
  * Licensed under the Apache License v2.0
  * http://www.apache.org/licenses/LICENSE-2.0
  *
- * Designed and built with all the love in the world by $mdo and $fat.
+ * Designed and built with all the love in the world by @mdo and @fat.
  */
 
 // Core variables and mixins
-@import "variables";
-@import "mixins";
+@import "bootstrap/bootstrap/variables";
+@import "bootstrap/bootstrap/mixins";
 
 // Reset
-@import "normalize";
-@import "print";
+@import "bootstrap/bootstrap/normalize";
+@import "bootstrap/bootstrap/print";
 
 // Core CSS
-@import "scaffolding";
-@import "type";
-@import "code";
-@import "grid";
+@import "bootstrap/bootstrap/scaffolding";
+@import "bootstrap/bootstrap/type";
+@import "bootstrap/bootstrap/code";
+@import "bootstrap/bootstrap/grid";
 
-@import "tables";
-@import "forms";
-@import "buttons";
+@import "bootstrap/bootstrap/tables";
+@import "bootstrap/bootstrap/forms";
+@import "bootstrap/bootstrap/buttons";
 
 // Components: common
-@import "component-animations";
-@import "glyphicons";
-@import "dropdowns";
-@import "list-group";
-@import "panels";
-@import "wells";
-@import "close";
+@import "bootstrap/bootstrap/component-animations";
+@import "bootstrap/bootstrap/dropdowns";
+@import "bootstrap/bootstrap/list-group";
+@import "bootstrap/bootstrap/panels";
+@import "bootstrap/bootstrap/wells";
+@import "bootstrap/bootstrap/close";
 
 // Components: Nav
-@import "navs";
-@import "navbar";
-@import "button-groups";
-@import "breadcrumbs";
-@import "pagination";
-@import "pager";
+@import "bootstrap/bootstrap/navs";
+@import "bootstrap/bootstrap/navbar";
+@import "bootstrap/bootstrap/button-groups";
+@import "bootstrap/bootstrap/breadcrumbs";
+@import "bootstrap/bootstrap/pagination";
+@import "bootstrap/bootstrap/pager";
 
 // Components: Popovers
-@import "modals";
-@import "tooltip";
-@import "popovers";
+@import "bootstrap/bootstrap/modals";
+@import "bootstrap/bootstrap/tooltip";
+@import "bootstrap/bootstrap/popovers";
 
 // Components: Misc
-@import "alerts";
-@import "thumbnails";
-@import "media";
-@import "labels";
-@import "badges";
-@import "progress-bars";
-@import "accordion";
-@import "carousel";
-@import "jumbotron";
+@import "bootstrap/bootstrap/alerts";
+@import "bootstrap/bootstrap/thumbnails";
+@import "bootstrap/bootstrap/media";
+@import "bootstrap/bootstrap/labels";
+@import "bootstrap/bootstrap/badges";
+@import "bootstrap/bootstrap/progress-bars";
+@import "bootstrap/bootstrap/accordion";
+@import "bootstrap/bootstrap/carousel";
+@import "bootstrap/bootstrap/jumbotron";
 
 // Utility classes
-@import "utilities"; // Has to be last to override when necessary
-@import "responsive-utilities";
+@import "bootstrap/bootstrap/utilities"; // Has to be last to override when necessary
+@import "bootstrap/bootstrap/responsive-utilities";
